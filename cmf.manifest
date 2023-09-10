@@ -2,5 +2,6 @@ CACHE MANIFEST
 # Resources to cache – it is a comment
 CACHE:
 index.html
+style.css
 Images/laptop.jpg
 Images/mobile.jpg
