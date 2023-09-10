@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html manifest="cmf.manifest">
+<head>
+<link rel="stylesheet" href="style.css">
+ <title>Offline Web Application</title>
+ <script>
+ function changeImage()
+ {
+ document.images["jsbutton"].src= "Images/laptop.jpeg";
+ return true;
+ }
+ function changeImageMore()
+ {
+ document.images["jsbutton"].src= "Images/mobile.jpeg";
+ return true;
+ }
+ </script>
+</head>
+<body>
+ <img name="jsbutton" src="Images/mobile.jpeg" width="75%" height="75%" border="0">
+ <br><input class="btn" type=button onclick="changeImage()" value="Show Laptop"></input>
+ &nbsp;&nbsp;<input class="btn" type=button onclick="changeImageMore()" value="Show Mobile"></input>
+</body>
+</html>
